@@ -1,0 +1,47 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:  hsla(138, 87%, 6%,1);
+  }
+  
+  .BoardRow {
+    display: flex;
+  }
+  
+  button {
+    width: 100px;
+    height: 100px;
+    font-size: 48px;
+    font-weight: bold;
+    color: hsla(138, 87%, 6%,1);
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color:  hsl(102, 100%, 78%);
+    box-shadow: 0px 5px 8px  hsl(103, 80%, 94%);
+    border: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .status {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:#fff;
+    text-align: center;
+   
+  }
+  
